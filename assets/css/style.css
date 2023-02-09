@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .book-a-table-btn {
   margin: 0 0 0 15px;
-  border: 2px solid #cda45e;
+  border: 2px solid #cd5e5e;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #cda45e;
+  background: #cd5e5e;
   color: #fff;
 }
 
@@ -443,7 +443,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/RS.jpg") center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -474,17 +474,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h1 span {
   /* color: #cda45e; */
-  color: #cd5e5e;
+  color: #e26965;
 }
 
 #hero h2 {
-  color: #eee;
+  color: #51c1e4;
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
 }
@@ -521,7 +521,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
+  background: radial-gradient(#cd5e5e 50%, rgba(250, 152, 137, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -567,7 +567,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #cda45e;
+  border-left: 15px solid #cd5ecd5e;
   transform: scale(20);
 }
 
@@ -687,7 +687,8 @@ section {
   font-size: 36px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: #cda45e;
+  /* color: #cda45e; */
+  color: #cd5e5e;
 }
 
 /*--------------------------------------------------------------
@@ -746,7 +747,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  background: url("../img/about-new.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -857,7 +858,8 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #cda45e;
+  /* color: #cda45e; */
+  color: #cd5e5e;
 }
 
 .why-us .box h4 {
