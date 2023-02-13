@@ -26,7 +26,27 @@ hr {
 .form-control::-webkit-input-placeholder { color: #999; }  
 .form-control:-ms-input-placeholder { color: #999; }  
 .form-control::placeholder { color: #999; }
-
+#bg-video1 {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-99%);
+    z-index: -100;
+    background-image: url(/images/blooms.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.divPosition{
+    position: relative;
+    left: 40%;
+    top: 40%;
+    transform: translate(-40%, 40%);/*文字定位*/
+}
 .tm-header {
     background-color: #0CC;
     color: white;
