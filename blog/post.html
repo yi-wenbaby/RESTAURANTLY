@@ -149,21 +149,32 @@ https://templatemo.com/tm-553-xtra-blog
                                 </div>                                
                                 <span class="d-block text-right tm-color-primary">June 21, 2020</span>
                             </div>
-                            <form action="" class="mb-5 tm-comment-form">
-                                <h2 class="tm-color-primary tm-post-title mb-4">Your comment</h2>
-                                <div class="mb-4">
-                                    <input class="form-control" name="name" type="text">
+                            <form method="POST" action="comment_connect.php" class="mb-5 tm-comment-form">
+                                <h2 class="tm-color-primary tm-post-title mb-4">Your comment</h2>                        
+                                <div class="form-group row mb-4">
+                                    <label for="name" class="col-sm-3 col-form-label text-right tm-color-primary">Name</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control mr-0 ml-auto" name="name" id="name" type="text" required>                            
+                                    </div>
                                 </div>
-                                <div class="mb-4">
-                                    <input class="form-control" name="email" type="text">
+                                <div class="form-group row mb-4">
+                                    <label for="email" class="col-sm-3 col-form-label text-right tm-color-primary">Email</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control mr-0 ml-auto" name="email" id="email" type="email" required>
+                                    </div>
                                 </div>
-                                <div class="mb-4">
-                                    <textarea class="form-control" name="message" rows="6"></textarea>
+                                <div class="form-group row mb-5">
+                                    <label for="message" class="col-sm-3 col-form-label text-right tm-color-primary">Message</label>
+                                    <div class="col-sm-9">
+                                        <textarea class="form-control mr-0 ml-auto" name="message" id="message" rows="8" required></textarea>                                
+                                    </div>
                                 </div>
-                                <div class="text-right">
-                                    <button class="tm-btn tm-btn-primary tm-btn-small">Submit</button>                        
+                                <div class="form-group row text-right">
+                                    <div class="col-12">
+                                        <button class="tm-btn tm-btn-primary tm-btn-small">Submit</button>                        
+                                    </div>                            
                                 </div>                                
-                            </form>                          
+                            </form>                           
                         </div>
                     </div>
                 </div>
